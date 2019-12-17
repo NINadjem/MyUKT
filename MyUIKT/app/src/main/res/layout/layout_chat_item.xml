@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="120dp"
+        android:id="@+id/layout_partner_msg"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/partner_avatar"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="bottom|start"
+                android:src="@drawable/femalestudentgraduationavatarprofilevector12055265"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:gravity="bottom"
+                android:id="@+id/partner_msg_txvw"
+                android:background="@drawable/partner_bulle"
+                android:textColor="@color/blank"
+                android:text="Salut imen j'espére que tu va bien je te demande de bien vouloir me recontrer demain au departement"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="01/01/2018 15:30"
+            android:textSize="10dp"
+            android:id="@+id/partner_send_time_txvw"
+            android:gravity="right"
+            android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"
+        android:id="@+id/layout_my_msg"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/my_bulle"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/blank"
+                android:id="@+id/my_msg_txvw"
+                android:text="Salut imen j'espére que tu va bien je te demande de bien vouloir me recontrer demain au departement"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/my_avatar"
+                android:layout_gravity="bottom|end"
+                android:src="@drawable/l156979331009587885853566914702436392714949n"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="01/01/2018 15:30"
+            android:textSize="10dp"
+            android:gravity="left"
+            android:id="@+id/my_send_time_txvw"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:drawableTint="@color/red_light"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/icons8doublecoche16"
+            android:text="@string/seen_at"
+            android:textSize="8dp"
+            android:id="@+id/seen_time_txvw"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:titleTextColor="@color/blank"
+                app:titleMarginStart="10dp"
+                android:background="@color/background_primary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="Mandene Malika"/>
+        
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="260dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/empty_list_txv"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/empty_list_pic"
+                android:layout_gravity="center"
+                android:src="@drawable/icons8supprimerlemessage40"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:id="@+id/empty_list_txv_text"
+                android:text="La conversation est vide !"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/chat_recycler_view"
+            app:stackFromEnd="true"
+            app:reverseLayout="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:transcriptMode="alwaysScroll"
+            android:visibility="gone">
+        </android.support.v7.widget.RecyclerView>
+    
+        <ProgressBar
+            android:id="@+id/progress_bar_chat"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="parent">
+    
+        <EditText
+            android:id="@+id/msg_to_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="10"
+            android:hint="Votre msg ..."
+            android:inputType="textMultiLine"
+            android:shadowColor="@color/blue_pramary_light"
+            android:maxLines="2"
+            android:padding="15dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/gray"/>
+    
+        <TextView
+            android:id="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/icons8send32"
+            android:drawableTint="@color/blue_pramary_light"/>
+    </LinearLayout>
+</LinearLayout>

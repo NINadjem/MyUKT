@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_primary"
+    tools:context="projects.uikt.com.myukt.WelcomeActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/blank"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:text="@string/welcome_to_muUkt"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/avatar_img_view_welcome"
+        app:civ_border_color="@color/green_white"
+        android:src="@drawable/l156979331009587885853566914702436392714949n"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nadjem Nour El Imane"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/blank"
+        android:layout_marginTop="60dp"
+        android:id="@+id/name_text_view_welcome"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etudiante en 3LMD"
+        android:textStyle="bold"
+        android:id="@+id/function_text_view_welcome"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green_white"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:id="@+id/email_text_view_welcome"
+        android:layout_gravity="center"
+        android:textColor="@color/yello"
+        android:text="nadjemni@gmail.com"/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:id="@+id/go_btn_welcome"
+        android:background="@drawable/icons8forward32"
+        />
+
+</LinearLayout>

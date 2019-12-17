@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="projects.uikt.com.myukt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme" />
+        <activity
+            android:name=".ProfilActivity"
+            android:label=" "
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".AdminProfilActivity"
+            android:label=" "
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme" />
+        <activity
+            android:name=".TeacherProfilActivity"
+            android:label=" "
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/my_news"
+            android:logo="@drawable/icons8nouvelles26gray"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".TimeTableActivity"
+            android:label="@string/my_time_table"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".MessegesActivity"
+            android:label="@string/my_messeges"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".DocumentActivity"
+            android:label="@string/my_requests"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".RemindersActivity"
+            android:label="@string/my_reminders"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".AddActivity"
+            android:label="@string/add"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".MarksActivity"
+            android:label="@string/my_marks"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+        <activity
+            android:name=".AbsenceActivity"
+            android:label="@string/my_absences"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyNoActionBarTheme"></activity>
+
+        <service android:name=".MyClasses$FillDatabaseWithStableInfo" />
+        <service android:name=".MyClasses$GetUsersAvatars" />
+        <service android:name=".MyClasses$FillDatabaseTimeTableTable" />
+        <service android:name=".MyClasses$FillDatabaseWithNews" />
+        <service android:name=".MyClasses$GetAllDocs" />
+        <service android:name=".MyClasses$GetAllMarks" />
+        <service android:name=".MyClasses$GetAllMessages" />
+        <service android:name=".MyClasses$getAllVotes" />
+        <service android:name=".MyClasses$MySyncService" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/chercher_un_utilisateur"
+            android:screenOrientation="portrait"></activity>
+
+    </application>
+
+</manifest>

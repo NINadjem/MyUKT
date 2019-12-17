@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context="projects.uikt.com.myukt.SettingsActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/settings_app"
+        />
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="@string/enable_notifications"
+        android:drawableLeft="@drawable/icons8alarme32"
+        android:drawablePadding="30dp"
+        android:id="@+id/enable_notifications"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/enable_sounds"
+        android:text="@string/enable_sound"
+        app:thumbTint="@color/blue_pramary_light"
+        
+        android:drawableLeft="@drawable/icons8hautparleur32"
+        android:drawablePadding="30dp"
+        android:theme="@style/BrandedSwitch.control"
+        android:drawableTint="@color/blue_pramary_light"
+        android:layout_height="wrap_content" />
+   <!-- <android.support.v7.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/enable_reminders"
+        android:text="@string/enable_reminders"
+        android:drawableLeft="@drawable/icons8alarmclock32"
+        android:drawablePadding="30dp"
+        android:layout_height="wrap_content" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/settings_persn"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_gravity="center|left"
+            android:layout_weight="2"
+            android:layout_marginBottom="20dp"
+            android:text="@string/change_avatar"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_gravity="center|left"
+            android:layout_weight="2"
+            android:text="@string/change_password"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="right"
+            android:tint="@color/red_light"
+            android:id="@+id/change_avatar"
+            android:src="@drawable/icons8modifier32"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:tint="@color/blue_light"
+            android:id="@+id/change_password"
+            android:layout_gravity="right"
+            android:src="@drawable/icons8modifier32"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

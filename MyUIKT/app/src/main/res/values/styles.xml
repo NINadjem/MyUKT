@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_primary</item>
+        <item name="colorPrimaryDark">@color/background_all</item>
+        <item name="colorAccent">@color/green_white</item>
+    </style>
+    <style name="MyNoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_primary</item>
+        <item name="colorPrimaryDark">@color/background_all</item>
+        <item name="colorAccent">@color/green_white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="BrandedSwitch.control" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/blue_pramary_light</item>
+    </style>
+    <style name="ActionBarWithMennu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/background_primary</item>
+        <item name="colorPrimaryDark">@color/background_all</item>
+        <item name="colorAccent">@color/green_white</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="TransparentActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:tint">@color/blank</item>
+        <item name="android:title">@null</item>
+
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+<style name="TabText" parent="Base.TextAppearance.AppCompat.Widget.Switch">
+    <item name="android:textAllCaps">false</item>
+    <item name="android:textSize">11sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:animateLayoutChanges">true</item>
+
+</style>
+
+</resources>

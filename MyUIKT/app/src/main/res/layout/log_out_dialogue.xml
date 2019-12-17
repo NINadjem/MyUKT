@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_primary"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icons8dconnexion32"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gray_light"
+        android:text="@string/log_out_warning"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blank"
+        android:layout_marginBottom="5dp"
+        android:text="@string/are_u_sure_of_log_out"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/log_out"
+            android:textColor="@color/green_white"
+            android:drawableTop="@drawable/icons8dconnexion32"
+            android:background="@color/background_primary"
+            android:layout_marginRight="20dp"
+
+            android:textStyle="bold"
+            android:id="@+id/log_out"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/background_primary"
+            android:drawablePadding="6dp"
+            android:drawableTop="@drawable/icons8effacer26"
+            android:text="@string/cancel"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

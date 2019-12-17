@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="projects.uikt.com.myukt.ProfilActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@color/background_primary"
+                    android:orientation="vertical">
+                    <android.support.design.widget.AppBarLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/AppTheme.AppBarOverlay">
+
+                        <android.support.v7.widget.Toolbar
+                            android:id="@+id/toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            android:background="?attr/colorPrimary"
+                            app:popupTheme="@style/TransparentActionBar" />
+
+                    </android.support.design.widget.AppBarLayout>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/avatar_img_view_welcome"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/l156979331009587885853566914702436392714949n"
+                        app:civ_border_color="@color/green_white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="NADJEM Nour El Imane"
+                        android:textColor="@color/yello"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="120dp"
+                    android:paddingTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="350dp"
+                    android:background="@color/blank"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_gravity="center"
+                            android:id="@+id/sexImageViewProfil"
+                            android:src="@drawable/icons8female64"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/female"
+                            android:id="@+id/sexTextViewProfil"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icons8rucksack32"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/student_female"
+                            android:id="@+id/studentLabelTextViewProfil"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/icons8glasses32"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Genie Logiciel"
+                            android:id="@+id/spacialtyLabelTextViewProfil"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:src="@drawable/icons8montedescaliers32"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/level"
+                        android:layout_gravity="center"
+                        android:textSize="17sp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="3LMD"
+                    android:id="@+id/levelTextViewProfil"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:textColor="@color/background_primary"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:src="@drawable/icons8usergroups32"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/grp"
+                        android:textSize="17sp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="1"
+                    android:gravity="center"
+                    android:id="@+id/groupTextViewProfil"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:textColor="@color/background_primary"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:src="@drawable/icons8house50"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/home_twon"
+                        android:layout_gravity="center"
+                        android:textSize="17sp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Tiaret"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:id="@+id/homeTextViewProfil"
+                    android:textColor="@color/background_primary"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:src="@drawable/icons8birthdate50"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/birth_date"
+                        android:layout_gravity="center"
+                        android:textSize="17sp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="01/02/1996"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/birth_dateTextViewProfil"
+                    android:layout_weight="2"
+                    android:textColor="@color/background_primary"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:src="@drawable/icons8email50"
+                        android:layout_height="50dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="17sp"
+                        android:text="@string/email" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="nadjemni@gmail.com"
+                    android:gravity="center"
+                    android:id="@+id/emailTextViewProfil"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:textColor="@color/background_primary"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:src="@drawable/icons8addusermale32"
+                        android:layout_height="50dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="17sp"
+                        android:text="@string/add_date" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/add_date_TextViewProfil"
+                    android:text="12/02/2017"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:textColor="@color/background_primary"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

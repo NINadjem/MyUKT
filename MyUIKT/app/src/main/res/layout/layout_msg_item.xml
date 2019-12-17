@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity=""
+            android:id="@+id/layout_msg_item_avatar"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/l156979331009587885853566914702436392714949n"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/conversation"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NADJEM Nour El Imane"
+                android:textStyle="bold"
+                android:id="@+id/layout_msg_item_sender_name"
+                android:layout_marginBottom="2dp"
+                android:textSize="18sp"
+                android:textColor="@color/background_primary"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/layout_msg_item_msg"
+                android:text="Bonjour veuillez accepter monsieur l..."
+                android:layout_marginBottom="2dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_msg_item_date"
+                android:textSize="10sp"
+                android:text="01/03/2015 15:30"
+                android:layout_gravity="right"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

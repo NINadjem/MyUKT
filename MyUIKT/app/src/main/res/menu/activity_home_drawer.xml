@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/time_table_item"
+            android:icon="@drawable/icons8schedule32"
+            android:title="@string/my_time_table" />
+        <item
+            android:id="@+id/news_item"
+            android:icon="@drawable/icons8news32"
+            android:title="@string/my_news" />
+        <item
+            android:id="@+id/msg_item"
+            android:icon="@drawable/icons8gmail32"
+            android:title="@string/my_messeges" />
+        <item
+            android:id="@+id/reminders_item"
+            android:icon="@drawable/icons8examen24"
+            android:title="@string/my_marks" />
+        <item
+            android:id="@+id/docs_item"
+            android:icon="@drawable/icons8documents32"
+            android:title="@string/my_requests" />
+        <item
+            android:id="@+id/stat_item"
+            android:icon="@drawable/icons8cambriolage32"
+            android:title="@string/my_absences" />
+    </group>
+    
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/settings_item"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/log_out_item"
+                android:icon="@drawable/icons8walking32"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="20dp"
+                    android:tint="@color/blue_light"
+                    android:src="@drawable/icons8ouvrirledocument32"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_primary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/layout_doc_request_done_item_doc"
+                        android:layout_marginBottom="7dp"
+                        android:text="Attestation de classement"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/gray_light"
+                        android:id="@+id/layout_doc_request_done_item_reason"
+                        android:text="Je vous demande l'attestation du classeme..."
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:paddingLeft="2dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:drawableTint="@color/yello"
+                        android:drawableTop="@drawable/icons8department32"
+                        android:gravity="center"
+                        android:text="@string/place_esth" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:id="@+id/layout_doc_request_done_item_esth"
+                        android:text= "Scolarité"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/icons8businessman50"
+                        android:drawableTint="@color/blue_pramary_light"
+                        android:text="@string/chez"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:id="@+id/layout_doc_request_done_item_admin"
+                        android:text= "Mme Fatiha"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01/02/2018 16:30"
+                android:textSize="12sp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:id="@+id/layout_doc_request_done_item_date"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

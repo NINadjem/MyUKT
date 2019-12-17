@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:id="@+id/news_recycler_view"
+    android:visibility="gone"
+    android:isScrollContainer="true"
+    android:layout_height="wrap_content">
+</android.support.v7.widget.RecyclerView>
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/progress_bar_news"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/empty_list_txv"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/empty_list_pic"
+            android:layout_gravity="center"
+            android:src="@drawable/icons8dormirdanslelitfilled50"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/empty_list_txv_text"
+            android:text="@string/vous_etes_libres_cette_journn_e"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+

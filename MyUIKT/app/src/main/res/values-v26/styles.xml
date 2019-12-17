@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBarWithMennu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/background_primary</item>
+        <item name="colorPrimaryDark">@color/background_all</item>
+        <item name="colorAccent">@color/green_white</item>
+    </style>
+
+</resources>

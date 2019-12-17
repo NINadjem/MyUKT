@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/layout_displayed_item_poster_avatar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/l156979331009587885853566914702436392714949n" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/layout_displayed_item_poster_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NADJEM Nour El Imane"
+                        android:textColor="@color/background_primary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/layout_displayed_item_specialty_poster"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:text="etudiante en 3LMD"
+                            android:textColor="@color/gray_light"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/has_published" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/layout_displayed_item_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="01/02/2018 16:30"
+                        android:textColor="@color/gray_light"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/layout_displayed_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Changement de la date des soutenance"
+                android:textColor="@color/blue_button"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/layout_displayed_item_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Monsieur le chef departement a decidé de changer la date des soutnace pour la promo 3LMD L'anne 2017/2018 a la date 05/4/2018 comme reponse aux attentes des etudiants"
+                android:textColor="@color/gray_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:drawableTint="@color/red_light"
+                    android:drawableTop="@drawable/icons8training32"
+                    android:gravity="center"
+                    android:text="@string/teacher_male" />
+
+                <TextView
+                    android:id="@+id/layout_displayed_item_ens"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="1dp"
+                    android:text="DAHMANI Youcef" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="9dp"
+                        android:drawableTop="@drawable/icons8faq30"
+                        android:gravity="center"
+                        android:text="@string/exam_type" />
+
+                    <TextView
+                        android:id="@+id/layout_displayed_item_exam_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center|right"
+                        android:text="Control" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:drawableTint="@color/blue_pramary_light"
+                    android:drawableTop="@drawable/icons8usergroups32"
+                    android:gravity="center"
+                    android:text="@string/grp" />
+
+                <TextView
+                    android:id="@+id/layout_displayed_item_grp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:text="3LMD G1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:drawableTop="@drawable/icons8littrature32"
+                        android:gravity="center"
+                        android:text="@string/module" />
+
+                    <TextView
+                        android:id="@+id/layout_displayed_item_module"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center|right"
+                        android:text="compilation" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/layout_displayed_item_like_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/icons8heartoutline32"
+                    android:gravity="center"
+                    android:text="25" />
+
+                <TextView
+                    android:id="@+id/layout_displayed_item_dislike_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTint="@color/red"
+                    android:drawableTop="@drawable/icons8dislike32"
+                    android:gravity="center"
+                    android:text="15" />
+
+                <TextView
+                    android:id="@+id/layout_displayed_item_comment_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTint="@color/yello"
+                    android:drawableTop="@drawable/icons8sujet26"
+                    android:gravity="center"
+                    android:text="3" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/layout_displayed_item_comments_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Systéme d'exploitation"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:id="@+id/module_marks_item"
+                android:drawableTint="@color/yello"
+                android:drawableLeft="@drawable/icons8littrature32"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="2dp"
+                android:text="@string/vous_avez_eu"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/exam_container_marks_item"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/exam"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:drawablePadding="20dp"
+                        android:layout_gravity="center"
+                        android:drawableTint="@color/blue_pramary_light"
+                        android:drawableLeft="@drawable/icons8testrussi32"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="5"
+                        android:id="@+id/exam_marks_item"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/td_container_marks_item"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/td"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:drawablePadding="20dp"
+                        android:drawableTint="@color/green_white"
+                        android:drawableLeft="@drawable/icons8training32"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="1"
+                        android:layout_gravity="center"
+                        android:id="@+id/td_marks_item"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tp_container_marks_item"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/tp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:drawablePadding="20dp"
+                        android:layout_gravity="center"
+                        android:drawableTint="@color/blue_light"
+                        android:drawableLeft="@drawable/icons8tp26"
+                        android:layout_marginTop="6dp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="2"
+                        android:id="@+id/tp_marks_item"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            
+            </LinearLayout>
+        
+        
+        
+        </LinearLayout>
+    
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

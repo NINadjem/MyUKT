@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="20dp"
+                android:tint="@color/red_light"
+                android:src="@drawable/icons8fichier32"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:id="@+id/layout_doc_request_item_doc"
+                    android:layout_marginBottom="9dp"
+                    android:text="Attestation de classement"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="7dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/gray_light"
+                    android:id="@+id/layout_doc_request_item_reason"
+                    android:text="Je vous demande l'attestation du classement ..."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01/02/2018 16:30"
+                    android:layout_gravity="right"
+                    android:id="@+id/layout_doc_request_item_date"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

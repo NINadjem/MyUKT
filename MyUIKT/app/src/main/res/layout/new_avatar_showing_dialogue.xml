@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_primary"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/avatar_img_view"
+        android:src="@drawable/l156979331009587885853566914702436392714949n"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/blank"
+        android:text="@string/your_new_avatar"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/valid"
+            android:drawableTop="@drawable/icons8coche26"
+            android:textColor="@color/yello"
+            android:drawablePadding="6dp"
+            android:background="@color/background_primary"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:id="@+id/update_avatar"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/change"
+            android:textColor="@color/green_white"
+            android:drawableTop="@drawable/icons8modifier32"
+            android:background="@color/background_primary"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:id="@+id/change_avatar_button"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/background_primary"
+            android:drawablePadding="6dp"
+            android:drawableTop="@drawable/icons8effacer26"
+            android:text="@string/cancel"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>
