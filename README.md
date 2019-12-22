@@ -1,7 +1,5 @@
 # Information Dissemination System "MyUKT" 🎓 📢 📱
 
-
- 💬 ✉️ 📝 🔍  📱 💻 🎓 📘 📰 🚩
 ## Project Main Goal 🌟
 
 This System was made to make the access to the information for all the Ibn Khaldoun University of Tiaret members alot more easier...
