@@ -29,9 +29,19 @@ In order to acheive our goal, we had to devide it into some elementary clear req
 | ------------- |:-------------:|:-------------:|
 | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/sch_student.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/sch_teacher.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/free_day.jpg "" ) |
 
+
 | Meeting news List | Student Results news | Strike news |
 | ------------- |:-------------:|:-------------:|
 | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/meeting_list.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/marks_news.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/strike_news.jpg "" ) |
+
+| Texting Menu | Texting | Search a user |
+| ------------- |:-------------:|:-------------:|
+| ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/contact_list.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/chat.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/search_for_member.jpg "" ) |
+
+| Student Profil | Student Profil | Stauff Profil |
+| ------------- |:-------------:|:-------------:|
+| ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/student_profil.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/s.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/admin_p.jpg "" ) |
+
 
 ## IDE & Programming language 🔧
 
