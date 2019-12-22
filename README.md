@@ -42,8 +42,19 @@ In order to acheive our goal, we had to devide it into some elementary clear req
 | ------------- |:-------------:|:-------------:|
 | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/student_profil.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/s.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/admin_p.jpg "" ) |
 
+| Document Request | Ready Document | User Marks |
+| ------------- |:-------------:|:-------------:|
+| ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/doc_req.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/rady_docs.jpg "" ) | ![alt text](https://github.com/NINadjem/MyUKT/blob/master/Screenshots/marks.jpg "" ) |
+
 
 ## IDE & Programming language 🔧
 
-This implementation was developped with the Java programming language using Netbeans IDE 
+This application was developped using : 
+* Java
+* PHP
+* Xampp
+* Android Studio
+* Netbeans
+* XML
 
+To know more about all the details check the "memoire NADJEM Nour El Imane.pdf" file that you'll find in this respository...
